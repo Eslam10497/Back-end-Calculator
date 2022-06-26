@@ -13,7 +13,7 @@ function bmiCalc(weight, height) {
   if (bmi > 24.9) {
     return "Your BMI is " + Math.floor(bmi) + ", so you are overweight";
   }
-  var interpretation = bmi;
+  interpretation = bmi;
   return interpretation;
 }
 
